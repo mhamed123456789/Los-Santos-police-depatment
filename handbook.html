@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFPD Handbook | Official Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0b0f19] text-gray-100 font-sans selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Command Bar -->
+    <div class="bg-black/90 border-b border-white/10 text-xs py-2.5 px-6 flex flex-col sm:flex-row justify-between items-center gap-2 backdrop-blur-md sticky top-0 z-50">
+        <div class="flex items-center gap-4 text-gray-400">
+            <span><i class="fa-solid fa-shield-halved text-blue-500 mr-1.5"></i> SFPD Secure Network</span>
+            <span class="hidden md:inline">|</span>
+            <span class="hidden md:inline text-emerald-400"><i class="fa-solid fa-circle text-[8px] animate-pulse mr-1"></i> Status: Active Duty</span>
+        </div>
+        <div class="font-semibold tracking-wider text-gray-300 text-center">
+            Owned by: <span class="text-blue-400">Chief Of Police: M.r Chafik</span> & <span class="text-blue-400">Deputy Chief: M.r Shiro</span>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="bg-black/60 border-b border-white/5 py-4 px-8 flex justify-between items-center backdrop-blur-md">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span class="font-black tracking-wider text-lg">SFPD <span class="text-blue-500">PORTAL</span></span>
+        </div>
+        <div class="flex items-center gap-3">
+            <a href="a.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 transition-all">Home</a>
+            <a href="handbook.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 text-white transition-all shadow-lg shadow-blue-600/20">Handbook</a>
+            <a href="ranks.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 transition-all">Ranks</a>
+        </div>
+    </nav>
+
+    <!-- Handbook Header -->
+    <header class="py-16 px-6 text-center bg-gradient-to-b from-blue-950/20 to-transparent border-b border-white/5">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <span class="px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-500/40 text-blue-300 text-xs font-bold uppercase tracking-widest backdrop-blur-md">
+                Los Santos Police Department
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight">SFPD <span class="text-blue-500">HANDBOOK</span></h1>
+            <p class="text-gray-400 max-w-xl mx-auto text-sm md:text-base">Comprehensive guide for department commands, radio codes, protocols, and standard operating procedures.</p>
+            
+            <!-- Quick Anchor Filters -->
+            <div class="flex flex-wrap justify-center gap-2 pt-6">
+                <a href="#commands" class="px-4 py-2 rounded-xl bg-white/5 hover:bg-blue-600/20 border border-white/10 text-xs font-bold transition-all flex items-center gap-2"><i class="fa-solid fa-terminal text-blue-400"></i> Commands</a>
+                <a href="#radiocodes" class="px-4 py-2 rounded-xl bg-white/5 hover:bg-blue-600/20 border border-white/10 text-xs font-bold transition-all flex items-center gap-2"><i class="fa-solid fa-walkie-talkie text-blue-400"></i> Radio Codes</a>
+                <a href="#divisions" class="px-4 py-2 rounded-xl bg-white/5 hover:bg-blue-600/20 border border-white/10 text-xs font-bold transition-all flex items-center gap-2"><i class="fa-solid fa-users-rectangle text-blue-400"></i> Divisions</a>
+                <a href="#allrules" class="px-4 py-2 rounded-xl bg-white/5 hover:bg-blue-600/20 border border-white/10 text-xs font-bold transition-all flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-blue-400"></i> All Rules & Regulations</a>
+                <a href="#charges" class="px-4 py-2 rounded-xl bg-white/5 hover:bg-blue-600/20 border border-white/10 text-xs font-bold transition-all flex items-center gap-2"><i class="fa-solid fa-gavel text-blue-400"></i> Charges & Violations</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-5xl mx-auto px-6 py-16 space-y-20">
+
+        <!-- Section 1: Global Commands -->
+        <section id="commands" class="space-y-8">
+            <div class="flex items-center gap-4 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-black text-white">Global Commands</h2>
+                    <p class="text-gray-400 text-xs">Essential chat and roleplay command reference</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/f (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">التحدث خارج نطاق الشخصية OOC</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/r (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">التحدث في الراديو اللاسلكي IC</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/d (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">التحدث في راديو جميع الأقسام</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/div (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">التحدث مع نفس القسم</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/m (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">مضخم الصوت</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/showbadge (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">إظهار الشارة لشخص</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/locker</div>
+                    <div class="text-gray-200 text-sm font-medium">فتح خزنة الأسلحة والملابس</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/callsign</div>
+                    <div class="text-gray-200 text-sm font-medium">وضع رقم الشارة على السيارة</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/backup</div>
+                    <div class="text-gray-200 text-sm font-medium">نشر موقعك وإعادة الأمر للإلغاء</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/badge</div>
+                    <div class="text-gray-200 text-sm font-medium">ارتداء أو إخفاء الشارة</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/siren</div>
+                    <div class="text-gray-200 text-sm font-medium">تشغيل الإنذارات الصوتية</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/deploy</div>
+                    <div class="text-gray-200 text-sm font-medium">وضع حاجز</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/undeploy</div>
+                    <div class="text-gray-200 text-sm font-medium">إزالة حاجز</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/undeployall</div>
+                    <div class="text-gray-200 text-sm font-medium">إزالة كل الحواجز</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/cuff /uncuff</div>
+                    <div class="text-gray-200 text-sm font-medium">تقييد أو فك القيود</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/drag</div>
+                    <div class="text-gray-200 text-sm font-medium">سحب أو إيقاف سحب الشخص</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/detain</div>
+                    <div class="text-gray-200 text-sm font-medium">وضعه في السيارة</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/tazer</div>
+                    <div class="text-gray-200 text-sm font-medium">إخراج الصاعق</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/su</div>
+                    <div class="text-gray-200 text-sm font-medium">توجيه قضية</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/mdc</div>
+                    <div class="text-gray-200 text-sm font-medium">فتح الكمبيوتر والبحث</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/gov (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">إعلان لجميع اللاعبين</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/frespawncars</div>
+                    <div class="text-gray-200 text-sm font-medium">إعادة سيارات الفصيل</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Radio 10-Codes -->
+        <section id="radiocodes" class="space-y-8">
+            <div class="flex items-center gap-4 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    <i class="fa-solid fa-walkie-talkie"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-black text-white">Radio 10-Codes</h2>
+                    <p class="text-gray-400 text-xs">Standard emergency broadcast codes</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">أحتاج دعم في موقعي</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">1-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">إلغاء طلب الدعم</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">2-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">تم القبض على مشتبه به، عائد به للمقر</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">3-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">تلقيت رسالة، أنا في طريقي</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">4-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">أكثر المطلوبين: قبض عليه أو قتل</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">5-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">ذاهب للخزنة لأخذ الأسلحة</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">6-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">الخروج من الخدمة مؤقتاً</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">7-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">الرجوع إلى الخدمة</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">8-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">أحتاج سيارة لنقل المتهم مع الموقع</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">9-10</span>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl flex justify-between items-center hover:border-blue-500/40 transition-all">
+                    <span class="text-gray-200 text-sm font-medium">الخروج من المدينة</span>
+                    <span class="font-mono text-emerald-400 font-bold text-sm bg-emerald-500/10 px-3 py-1 rounded-lg border border-emerald-500/20">10-10</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Divisions & Faction Management -->
+        <section id="divisions" class="space-y-8">
+            <div class="flex items-center gap-4 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    <i class="fa-solid fa-users-rectangle"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-black text-white">Divisions & Faction Management</h2>
+                    <p class="text-gray-400 text-xs">Management and internal division commands</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/division list</div>
+                    <div class="text-gray-200 text-sm font-medium">عرض الأقسام</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/division assign (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">إضافة عضو لقسم</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/division kick (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">طرد عضو من قسم</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/faction invite (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">دعوة للفصيل</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/faction kick (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">طرد من الفصيل</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/faction offlinekick (text)</div>
+                    <div class="text-gray-200 text-sm font-medium">طرد عضو غير متصل</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/faction rank (ID)</div>
+                    <div class="text-gray-200 text-sm font-medium">منح رتبة</div>
+                </div>
+                <div class="bg-white/[0.03] border border-white/10 p-5 rounded-2xl hover:border-blue-500/40 transition-all">
+                    <div class="font-mono text-blue-400 font-bold text-sm bg-blue-500/10 inline-block px-3 py-1 rounded-lg mb-2 border border-blue-500/20">/froster</div>
+                    <div class="text-gray-200 text-sm font-medium">معرفة حالة أعضاء القسم</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: All Rules & Regulations -->
+        <section id="allrules" class="space-y-8">
+            <div class="flex items-center gap-4 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-black text-white">All Rules & Regulations</h2>
+                    <p class="text-gray-400 text-xs">Comprehensive department policies, charge rules, and tactical protocols</p>
+                </div>
+            </div>
+
+            <!-- Single Unified Container Card -->
+            <div class="bg-white/[0.02] border border-white/10 rounded-3xl p-6 md:p-8 space-y-10 backdrop-blur-sm">
+                
+                <!-- Charge Rules Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-file-shield"></i> Charge Rules</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">1</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">لا تترك المقبوض عليه وحده لأكثر من 10 دقائق.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">2</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">يسمح بتفتيش من قام بـ Robbery أو Fight ومصادرة الأشياء الخطيرة فقط.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">3</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">وثق القضايا والتقارير بدقة.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">4</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">للمواطن حق المحامي ومكالمة هاتفية واحدة.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">5</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">القضايا الكبرى يمكن تحويلها إلى المحكمة.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">6</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">6 قضايا كحد أقصى: يمكن تحويل المواطن للمحكمة.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Citizen Masqué & Fines Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-user-secret"></i> Citizen Masqué & Fines</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">1</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">المرة الأولى للمقنع: تنبيه + قضية + غرامة.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">2</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">المرة الثانية: إيقافه واحتجازه وتفتيشه.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">3</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">يمنع اختراع أو تلفيق قضية من تلقاء نفسك.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fight & Raids Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-skull"></i> Fight & Raids</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">1</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">مداهمة أو الهجوم على Gang: 15 شرطياً كحد أدنى.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">2</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">مداهمة منظمة كبرى مثل Terro / Hitman: 20 شرطياً كحد أدنى.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">3</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">في الطوارئ يسمح بالتفتيش حسب حالة الاستنفار.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Public Rules Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-city"></i> Public Rules</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">1</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">يمنع دخول الحي دون أمر مباشر من High LSPD.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">2</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">مداهمة أي حي تتطلب 15 شرطياً على الأقل.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">3</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">يمنع استخدام الـ Tazer داخل الحي.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">4</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">الشرطي الفاسد قد يعاقب بـ Ban و Delete Character.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">5</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">يجب احترام وتنفيذ أوامر الرتب الأعلى.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-start gap-3">
+                            <span class="w-6 h-6 rounded-lg bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 font-bold text-xs shrink-0">6</span>
+                            <div class="text-gray-200 text-xs font-medium pt-0.5">عند Off Duty انزع أسلحة الشرطة وخذ Permissions من القائد.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tazer Rules Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-bolt"></i> Tazer Rules</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div class="bg-white/[0.03] border border-amber-500/30 p-4 rounded-xl">
+                            <div class="text-amber-400 font-bold text-xs mb-1.5"><i class="fa-solid fa-shield-cat"></i> القاعدة الأساسية</div>
+                            <div class="text-gray-300 text-[11px]">الصاعق وسيلة للسيطرة وليس للفوز في القتال. يمنع استخدامه أثناء Fight Roleplay أو Fight أو تبادل الضربات المباشر.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-emerald-500/30 p-4 rounded-xl">
+                            <div class="text-emerald-400 font-bold text-xs mb-1.5"><i class="fa-solid fa-check"></i> يسمح باستخدامه</div>
+                            <div class="text-gray-300 text-[11px]">عند هروب المشتبه به على قدميه، أو مقاومة الاعتقال دون قتال مباشر، وبعد أوامر واضحة ورفض الامتثال.</div>
+                        </div>
+                        <div class="bg-white/[0.03] border border-rose-500/30 p-4 rounded-xl">
+                            <div class="text-rose-400 font-bold text-xs mb-1.5"><i class="fa-solid fa-xmark"></i> يمنع استخدامه</div>
+                            <div class="text-gray-300 text-[11px]">داخل أحياء العصابات، القيادة، دراجة متحركة، داخل سيارة، ضد مقيد أو مستسلم، أو بشكل Spam.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pistol & Cuffs Rules Sub-group -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-2"><i class="fa-solid fa-gun"></i> Pistol & Cuffs Rules</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="space-y-2">
+                            <div class="text-xs font-semibold text-gray-400">Pistol Rules</div>
+                            <div class="space-y-2">
+                                <div class="bg-white/[0.03] border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                                    <span class="w-5 h-5 rounded bg-blue-500/25 flex items-center justify-center text-blue-400 font-bold text-[10px] shrink-0">1</span>
+                                    <div class="text-gray-200 text-[11px]">يمنع إطلاق النار في Green Zone.</div>
+                                </div>
+                                <div class="bg-white/[0.03] border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                                    <span class="w-5 h-5 rounded bg-blue-500/25 flex items-center justify-center text-blue-400 font-bold text-[10px] shrink-0">2</span>
+                                    <div class="text-gray-200 text-[11px]">إذا غير المشتبه سيارته أثناء المطاردة، يسمح بإطلاق النار على السيارة فقط وليس الشخص مباشرة.</div>
+                                </div>
+                                <div class="bg-white/[0.03] border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                                    <span class="w-5 h-5 rounded bg-blue-500/25 flex items-center justify-center text-blue-400 font-bold text-[10px] shrink-0">3</span>
+                                    <div class="text-gray-200 text-[11px]">إذا هرب مجرم بعد Robbery دون طلب تفاوض، يتم التعامل حسب القواعد المعتمدة.</div>
+                                </div>
+                                <div class="bg-white/[0.03] border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                                    <span class="w-5 h-5 rounded bg-blue-500/25 flex items-center justify-center text-blue-400 font-bold text-[10px] shrink-0">4</span>
+                                    <div class="text-gray-200 text-[11px]">يمكن إلغاء تفاوض السرقة بعد 3 طلبات مرفوضة وغير منطقية.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-xs font-semibold text-gray-400">Cuffs Rules</div>
+                            <div class="space-y-2">
+                                <div class="bg-white/[0.03] border border-white/10 p-3 rounded-xl flex items-start gap-2.5">
+                                    <span class="w-5 h-5 rounded bg-blue-500/25 flex items-center justify-center text-blue-400 font-bold text-[10px] shrink-0">1</span>
+                                    <div class="text-gray-200 text-[11px]">يمنع Cuff في منتصف Fight.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 5: Charges & Violations (Replacing Legal Terminology) -->
+        <section id="charges" class="space-y-8">
+            <div class="flex items-center gap-4 border-b border-white/10 pb-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold">
+                    <i class="fa-solid fa-gavel"></i>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-black text-white">قائمة الاتهامات والمخالفات</h2>
+                    <p class="text-gray-400 text-xs">اختر القضية المناسبة للحالة الفعلية فقط، ويمنع تلفيق أو اختراع اتهامات.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- 1. Violent Crimes -->
+                <div class="bg-white/[0.03] border border-white/10 p-6 rounded-3xl space-y-4 hover:border-blue-500/40 transition-all">
+                    <h3 class="text-lg font-bold text-rose-400 flex items-center gap-2 border-b border-white/5 pb-3">
+                        <i class="fa-solid fa-droplet"></i> Violent Crimes
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Assault:</span> تهديد شخص أو محاولة ضربه وإخافته.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Verbal Assault:</span> شتائم أو تهديدات كلامية عدائية.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Vehicular Assault:</span> تعمد صدم شخص أو إيذائه بالمركبة.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Attempted Murder:</span> محاولة قتل شخص مع فشل الجريمة.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Murder:</span> القتل العمد.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Kidnapping:</span> خطف شخص واحتجازه بالقوة.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Weapons & Narcotics -->
+                <div class="bg-white/[0.03] border border-white/10 p-6 rounded-3xl space-y-4 hover:border-blue-500/40 transition-all">
+                    <h3 class="text-lg font-bold text-amber-400 flex items-center gap-2 border-b border-white/5 pb-3">
+                        <i class="fa-solid fa-gun"></i> Weapons & Narcotics
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Possession of Illegal Firearms:</span> حيازة سلاح غير مرخص.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Brandishing a Firearm:</span> إشهار السلاح في العلّن بطريقة تهديدية.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Discharge of a Firearm:</span> إطلاق النار داخل المدينة دون مبرر قانوني.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Distribution / Manufacture of Firearms:</span> بيع أو تهريب أو تصنيع أسلحة غير مرخصة.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Illegal Narcotics:</span> حيازة أو بيع أو توزيّع أو تصنيع المخدرات.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Law & Justice -->
+                <div class="bg-white/[0.03] border border-white/10 p-6 rounded-3xl space-y-4 hover:border-blue-500/40 transition-all">
+                    <h3 class="text-lg font-bold text-blue-400 flex items-center gap-2 border-b border-white/5 pb-3">
+                        <i class="fa-solid fa-scale-balanced"></i> Law & Justice
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Evading Arrest:</span> الهروب من الشرطة أثناء محاولة الإيقاف.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Failure to Comply:</span> رفض الانصياع لأوامر قانونية مباشرة.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Impersonating a LEO:</span> انتحال صفة رجل أمن.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Traffic & Driving -->
+                <div class="bg-white/[0.03] border border-white/10 p-6 rounded-3xl space-y-4 hover:border-blue-500/40 transition-all">
+                    <h3 class="text-lg font-bold text-emerald-400 flex items-center gap-2 border-b border-white/5 pb-3">
+                        <i class="fa-solid fa-traffic-light"></i> Traffic & Driving
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Driving Without a License:</span> قيادة مركبة أو دراجة نارية بدون رخصة سارية.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Speeding:</span> تجاوز السرعة القانونية المحددة.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Reckless Driving:</span> القيادة بتهور بما يهدد الناس أو الممتلكات.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Unlawful Street Racing:</span> تنظيم أو المشاركة في سباقات غير قانونية.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Illegal Shortcut:</span> استعمال ممرات أو اختصارات ممنوعة لتفادي الطريق الرئيسي.
+                        </div>
+                        <div class="bg-white/[0.02] p-3 rounded-xl border border-white/5">
+                            <span class="font-bold text-blue-400">Failure to Pay a Ticket:</span> التهرب من دفع الغرامات والمخالفات.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black/90 border-t border-white/10 py-8 px-6 text-center text-gray-500 text-xs mt-20">
+        <p>&copy; 2026 Los Santos Police Department - SA-MP Division. All Rights Reserved.</p>
+        <p class="mt-2 text-gray-400">
+            Owned by: <span class="text-blue-400">Chief Of Police: M.r Chafik</span> & <span class="text-blue-400">Deputy Chief: M.r Shiro</span>
+        </p>
+    </footer>
+
+</body>
+</html>

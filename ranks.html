@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFPD Ranks | Department Hierarchy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0b0f19] text-gray-100 font-sans selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Command Bar -->
+    <div class="bg-black/80 border-b border-white/10 text-xs py-2.5 px-6 flex flex-col sm:flex-row justify-between items-center gap-2 backdrop-blur-md sticky top-0 z-50">
+        <div class="flex items-center gap-4 text-gray-400">
+            <span><i class="fa-solid fa-shield-halved text-blue-500 mr-1.5"></i> SFPD Command Database</span>
+            <span class="hidden md:inline">|</span>
+            <span class="hidden md:inline text-emerald-400"><i class="fa-solid fa-circle text-[8px] animate-pulse mr-1"></i> Ranks Active</span>
+        </div>
+        <div class="font-semibold tracking-wider text-gray-300 text-center">
+            Owned by: <span class="text-blue-400">Chief Of Police: M.r Chafik</span> & <span class="text-blue-400">Deputy Chief: M.r Shiro</span>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="bg-black/40 border-b border-white/5 py-4 px-8 flex justify-between items-center backdrop-blur-md">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold">
+                <i class="fa-solid fa-ranking-star"></i>
+            </div>
+            <span class="font-black tracking-wider text-lg">SFPD <span class="text-blue-500">RANKS</span></span>
+        </div>
+        <div class="flex items-center gap-3">
+            <a href="a.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 transition-all">Home</a>
+            <a href="handbook.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 transition-all">Handbook</a>
+            <a href="ranks.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 text-white transition-all shadow-lg shadow-blue-600/20">Ranks</a>
+        </div>
+    </nav>
+
+    <!-- Ranks Content Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs font-bold uppercase tracking-widest text-blue-400">Personnel Architecture</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight mt-1 mb-2">DEPARTMENT <span class="text-blue-500">RANKS</span></h2>
+            <div class="w-16 h-1 bg-blue-500 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Cadet -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (0)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Cadet</h3>
+                <p class="text-gray-400 text-xs mt-2">New academy recruit undergoing basic department training and legal orientation.</p>
+            </div>
+
+            <!-- Police Officer -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (1)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Police Officer</h3>
+                <p class="text-gray-400 text-xs mt-2">Full-fledged officer responsible for daily patrols, traffic control, and answering dispatches.</p>
+            </div>
+
+            <!-- Senior Officer -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (2)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Senior Officer</h3>
+                <p class="text-gray-400 text-xs mt-2">Experienced patrol officer capable of supervising junior units and managing high-risk calls.</p>
+            </div>
+
+            <!-- Sergeant -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (3)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Sergeant</h3>
+                <p class="text-gray-400 text-xs mt-2">NCO supervisor directing scene operations, tactical formations, and unit assignments.</p>
+            </div>
+
+            <!-- Captain -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (4)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Captain</h3>
+                <p class="text-gray-400 text-xs mt-2">High command leader directing specialized divisions, recruitment, and internal administration.</p>
+            </div>
+
+            <!-- Deputy Chief -->
+            <div class="bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-6 rounded-2xl text-center backdrop-blur-xl hover:border-blue-500/50 transition-all shadow-lg">
+                <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl font-bold mb-4 shadow-inner">
+                    <i class="fa-solid fa-chess-king"></i>
+                </div>
+                <span class="text-xs font-bold tracking-widest text-blue-400 uppercase">Rank (5)</span>
+                <h3 class="text-xl font-black text-white mt-1">PD - Deputy Chief</h3>
+                <p class="text-gray-400 text-xs mt-2">Second-in-command overseeing entire department operations alongside the Chief.</p>
+            </div>
+
+        </div>
+
+        <!-- Training & Recruitment Sub-Box -->
+        <div class="mt-8 bg-white/[0.03] border border-white/10 p-6 rounded-2xl backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-lg font-bold">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h4 class="text-lg font-black text-white">TR (Training & Recruitment Division)</h4>
+                    <p class="text-gray-400 text-xs mt-0.5">تدريب المجندين، الاختبارات، التقييم والتوظيف لإعداد ضباط مؤهلين للخدمة العسكرية.</p>
+                </div>
+            </div>
+            <span class="px-4 py-2 rounded-xl bg-blue-600/10 border border-blue-500/30 text-blue-400 text-xs font-bold tracking-wide">
+                Special Unit
+            </span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black/80 border-t border-white/10 py-8 px-6 text-center text-gray-500 text-xs">
+        <p>&copy; 2026  Los Santos Police Department - SA-MP Division. All Rights Reserved.</p>
+        <p class="mt-2 text-gray-400">
+            Owned by: <span class="text-blue-400">Chief Of Police: M.r Chafik</span> & <span class="text-blue-400">Deputy Chief: M.r Shiro</span>
+        </p>
+    </footer>
+
+</body>
+</html>
